@@ -11,4 +11,7 @@ Please check your cuda version first and install the above libraries matching yo
 
 ## Data preparation
 
-You can use download IMDB, DBLP, LastFM by using dataset class in torch_geometric.datasets. For Pubmed, ACM and Yelp, please them from [the source of HGB benchmark] (https://cloud.tsinghua.edu.cn/d/fc10cb35d19047a88cb1/?p=NC)
+You can use download all datasets by using dataset classes in torch_geometric.datasets. 
+For Cora, Citeseer and PubMed, please download them by using torch_geometric.datasets.Planetoid(root: str, name: str, split: str = 'public', num_train_per_class: int = 20, num_val: int = 500, num_test: int = 1000, transform: Optional[Callable] = None, pre_transform: Optional[Callable] = None).
+For Cornell, Texas and Wisconsin, please download them by using torch_geometric.datasets.WebKB(root: str, name: str, transform: Optional[Callable] = None, pre_transform: Optional[Callable] = None)
+For Actor, please download it by using torch_geometric.datasets.Actor(root: str, transform: Optional[Callable] = None, pre_transform: Optional[Callable] = None).
