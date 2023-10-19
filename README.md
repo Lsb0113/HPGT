@@ -1,5 +1,5 @@
 # Semi-supervised heterophilic graph representation learning model based on Graph Transformer (HPGT)
-该工作已经收录于计算机应用
+The work has been published in the journal of Computer Applications.
 
 ## Requirements
 
